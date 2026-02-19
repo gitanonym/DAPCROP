@@ -12,6 +12,10 @@ Decision tree ensembles (also known as Forests) are widely utilized in machine l
 To run the algorithms, all needed is:
 1. Install the required packages using [the requirements file](https://github.com/gitanonym/DAPCROP/blob/main/requirements.txt).
 2. Choose your desired model [in the constatns file by choosing an enum value](https://github.com/gitanonym/DAPCROP/blob/main/code/DAPCROP/Constants.py#L21).
+3. Run test_all.py file with -d 1 argument: 
+    ```
+        python -m test_all.py -d 1
+    ```
 
 That's it. The results will be saved in the results folder.
 
