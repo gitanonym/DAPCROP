@@ -1,0 +1,59 @@
+[
+    {
+        "output_name": "all_nodes_tweak",
+        "class_name": "AllNodesFixer",
+        "parameters": {
+        },
+        "disabled": false
+    },
+    {
+        "output_name": "single_top_tweak",
+        "class_name": "TopNodeFixer",
+        "parameters": {
+        },
+        "disabled": true
+    },
+    {
+        "output_name": "per_features_top_tweak",
+        "class_name": "TopFeaturesNodesFixer",
+        "parameters": {
+        },
+        "disabled": true
+    },
+    {
+        "output_name": "Original_Subtree_Synthesize_Prior",
+        "class_name": "SubTreeRetrainingFixer",
+        "parameters": {
+            "use_prior_knowledge": "Synthesize",
+            "subtree_type": "Original"
+        },
+        "disabled": false
+    },
+    {
+        "output_name": "HoeffdingAdaptive_subtree_synthesize_prior",
+        "class_name": "SubTreeRetrainingFixer",
+        "parameters": {
+            "use_prior_knowledge": "Synthesize",
+            "subtree_type": "HoeffdingAdaptiveTreeClassifier"
+        },
+        "disabled": true
+    },
+    {
+        "output_name": "EFDT_Subtree_Real_Prior",
+        "class_name": "SubTreeRetrainingFixer",
+        "parameters": {
+            "use_prior_knowledge": "Use",
+            "subtree_type": "ExtremelyFastDecisionTreeClassifier"
+        },
+        "disabled": true
+    },
+    {
+        "output_name": "EFDT_Subtree_Synthesize_Prior",
+        "class_name": "SubTreeRetrainingFixer",
+        "parameters": {
+            "use_prior_knowledge": "Synthesize",
+            "subtree_type": "ExtremelyFastDecisionTreeClassifier"
+        },
+        "disabled": true
+    }
+]
