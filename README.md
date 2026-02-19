@@ -11,9 +11,9 @@ Decision tree ensembles (also known as Forests) are widely utilized in machine l
 ## Reproduce:
 To run the algorithms, all needed is:
 1. Install the required packages using [the requirements file](https://github.com/gitanonym/DAPCROP/blob/main/requirements.txt).
-2. Choose your desired model [in the constatns file by choosing an enum value](https://github.com/gitanonym/DAPCROP/blob/main/DAPCROP/Constants.py#L21).
-3. Run test_all.py. test_all can get various parametrs to make the run parallel and more efficient. you can use the --help to check all out. The testing configuration for the baseline and the ablation test can be found in [TestingDiagnosersData.json](https://github.com/my-anonymous-git/spider_fuzzy_diagnosis/blob/main/Tester/TestingDiagnosersData.json).
-4. That's it. The results will be saved in the results folder.
+2. Choose your desired model [in the constatns file by choosing an enum value](https://github.com/gitanonym/DAPCROP/blob/main/code/DAPCROP/Constants.py#L21).
+
+That's it. The results will be saved in the results folder.
 
 
 [Appendix of all the datasets and corresponding results can be located here]([https://github.com/my-anonymous-git/spider_fuzzy_diagnosis/blob/main/data/all_datasets.csv](https://github.com/gitanonym/DAPCROP/tree/main/appendix))
